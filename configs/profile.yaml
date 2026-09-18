@@ -1,0 +1,7 @@
+domain:
+  task: wellbore_sequence_prediction
+  input_modalities: [tabular, depth_sequence]
+  validation_group: well_id_or_field_id
+  primary_risk: row_random_split_and_scaler_leakage
+  first_baseline: grouped_tabular_model
+  extrapolation: explicitly_report_interpolation_vs_extrapolation
