@@ -1,0 +1,23 @@
+competition:
+  name: "ROGII Wellbore Geology Prediction"
+  slug: "rogii-wellbore-geology-prediction"
+  metric: "competition-defined geology prediction score"
+
+data:
+  input_dir: null  # null => KAGGLE_INPUT_DIR, then data/raw
+  target: "geology_label"
+
+validation:
+  strategy: "well/group-aware split with interpolation-vs-extrapolation stated explicitly"
+  n_splits: 5
+  shuffle: true
+
+run:
+  seed: 42
+  deterministic: false
+  output_root: outputs
+
+model:
+  name: baseline
+  params: {}
+

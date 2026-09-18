@@ -1,0 +1,20 @@
+competition:
+  name: "ROGII Wellbore Geology Prediction"
+  slug: "rogii-wellbore-geology-prediction"
+  metric: "competition-defined geology prediction score"
+data:
+  input_dir: null
+  target: "geology_label"
+  sample_rows: 200
+validation:
+  strategy: holdout
+  n_splits: 2
+  shuffle: true
+run:
+  seed: 42
+  deterministic: true
+  output_root: outputs
+model:
+  name: smoke
+  params: {}
+
