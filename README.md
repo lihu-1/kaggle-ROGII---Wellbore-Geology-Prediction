@@ -1,5 +1,7 @@
 # ROGII Wellbore Geology Prediction
 
+> 推理方案与运行说明： [SOLUTION.md](SOLUTION.md)
+
 Private solution repository for `rogii-wellbore-geology-prediction`.
 
 ## 1. Objective
