@@ -1,5 +1,7 @@
 # ROGII Wellbore Geology Prediction 推理方案
 
+> **当前状态：**本文介绍目前的最终推理方案；其余内容仍在制作与复盘中，后续将逐步补充。
+
 ## 任务与入口
 
 对测试数据生成 `tvt` 预测。入口为 [inference.ipynb](inference.ipynb)，包含基线运行和后续候选方案两个有序单元。
